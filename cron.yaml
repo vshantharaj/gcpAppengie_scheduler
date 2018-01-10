@@ -1,0 +1,8 @@
+cron:
+- description: "stop"
+  url: /stop/us-east1-b/instance-1
+  schedule: every 4 mins from 23:22 to 23:30
+- description: "start"
+  url: /start/us-east1-b/instance-1
+  schedule: every 4 mins from 23:24 to 23:40
+ 
