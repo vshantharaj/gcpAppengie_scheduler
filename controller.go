@@ -48,7 +48,7 @@ func incomingMail(w http.ResponseWriter, r *http.Request) {
 
 	}
 	from := mymail.Header.Get("From")
-	if strings.Contains(from, "vikram.bs@gmail.com") {
+	if !strings.Contains(from, "vikram.bs@gmail.com") {
 		glog.Errorf(ctx, "the mail address '%v' is Not authorized", from)
 		//http.Error(w, "no access", 500)
 		log.Fatal("error")
