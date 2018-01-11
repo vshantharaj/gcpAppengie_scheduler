@@ -10,5 +10,6 @@ handlers:
   script: _go_app
   login: admin
 
+service: yoyo
 
  

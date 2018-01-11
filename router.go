@@ -33,7 +33,7 @@ var routes = Routes{
 	Route{
 		"mail",
 		[]string{"POST"},
-		"/_ah/mail/",
+		"/_ah/mail/anyone@yoyo-dot-strange-mariner-191706.appspotmail.com",
 		incomingMail,
 	},
 	Route{
