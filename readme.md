@@ -55,8 +55,6 @@ handlers:
 
 There is no default feature which I can find in GCP which lets me control this. But I implement this as part of the authorization aspect of my code.
 
-### Debugging
-
 ### *Disclaimers*
 
 >* Ignore the rest API design i know that it violates several restful design concepts - which is not what this demo/sample is about...
