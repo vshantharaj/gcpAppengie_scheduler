@@ -48,7 +48,7 @@ func incomingMail(w http.ResponseWriter, r *http.Request) {
 
 	}
 	from := mymail.Header.Get("From")
-	if !strings.Contains(from, "vikram.bs@gmail.com") {
+	if !strings.Contains(from, "<anyuthorized mail ID>") {
 		glog.Errorf(ctx, "the mail address '%v' is Not authorized", from)
 		//http.Error(w, "no access", 500)
 		log.Fatal("error")
@@ -65,18 +65,6 @@ func incomingMail(w http.ResponseWriter, r *http.Request) {
 		glog.Infof(ctx, "StoppingVM %v", status)
 
 	}
-
-	//glog.Infof(ctx, "val %v,%v,%v", command, zone, instancename)
-	// select command{
-	// case "start":{
-
-	// }
-	// }
-
-	// buf := new(bytes.Buffer)
-	// buf.ReadFrom(mymail.Body)
-	// glog.Infof(ctx, "value %v", buf.String())
-
 }
 
 func getAuthClient(r *http.Request) *http.Client {

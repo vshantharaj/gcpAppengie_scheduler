@@ -1,10 +1,10 @@
 cron:
-# - description: "stop"
-#   url: /stop/us-east1-b/instance-1
-#   schedule: every 4 mins from 10:56 to 11:10
-#   timezone: America/Chicago
-# - description: "start"
-#   url: /start/us-east1-b/instance-1
-#   schedule: every 4 mins from 10:58 to 11:15
-#   timezone: America/Chicago
+- description: "stop"
+  url: /stop/us-east1-b/instance-1
+  schedule: every 4 mins from 10:56 to 11:10
+  timezone: America/Chicago
+- description: "start"
+  url: /start/us-east1-b/instance-1
+  schedule: every 4 mins from 10:58 to 11:15
+  timezone: America/Chicago
  
