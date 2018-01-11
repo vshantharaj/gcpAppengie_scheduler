@@ -5,14 +5,14 @@
 >*The Key/hidden objective is to better understand Google cloud platform services and explore this utilizing golang.
 But to build "something..." i'll need to define **"something"** hence.. the below objective...*
 
-* To be able to Schedule start/ stop of a Compute instance 
+* To be able to Schedule start/ stop of a Compute instance
 * To be able start/stop the Compute instance without access to Google cloud console
 
 ## Overview
 
 One of the benefits of Cloud Platform is that it provides a great cost benefit by paying only for what we use. Basically if I have a test/Dev environment which i am not using.. then I can just shutdown the environment and don’t have to pay for it...(don’t have to pay for compute.. would still pay for storage). But what if I forget to shutdown by end of day... ? ( i have burnt my trial periods (and some amount of my credit card) in the past) so I decided to try implement my own scheduler using google's platform.
 
-I manage to implement this by utilizing AppEngine standard a fully managed Google Cloud Platform Service to schedule a start and stop a Compute instance. I also extend this to tap into Mail API feature of AppEngine to start/stop on demand too...
+I manage to implement this by utilizing AppEngine standard a fully managed Google Cloud Platform Service to schedule a start and stop a Compute instance. I also extend this to tap into Mail API feature of AppEngine to start/stop on demand too... (via Email)
 
 ## Tech Spec
 
