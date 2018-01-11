@@ -1,4 +1,4 @@
-# Google Cloud Platform Scheduled Start/Stop of Compute Instance	
+# Google Cloud Platform Scheduled Start/Stop of Compute Instance
 
 ## Objective
 
@@ -64,6 +64,6 @@ There is no default feature which I can find in GCP which lets me control this. 
 * [AppEngine](https://cloud.google.com/appengine/docs/)
 * [Cron Job](https://cloud.google.com/appengine/docs/standard/go/config/cron)
 * [Mail API](https://cloud.google.com/appengine/docs/standard/go/mail/)
-* [Golang -*my new love*](https://golang.org/)
+* [Golang ](https://golang.org/)
 
 
